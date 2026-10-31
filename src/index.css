@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-canvas: #FAF8F5;
+    --color-surface: #FFFFFF;
+    --color-forest: #0C2B22;
+    --color-forest-deep: #071C16;
+    --color-sage: #8A9A86;
+    --color-sage-light: #EBF0EA;
+    --color-sand: #C5A059;
+    --color-ink: #1A201C;
+    --color-ink-muted: #556059;
+    --color-border: #E8E4DC;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: var(--color-canvas);
+    color: var(--color-ink);
+  }
+  
+  .font-editorial {
+    font-family: 'Newsreader', Georgia, serif;
+    font-optical-sizing: auto;
+  }
+}
+
+/* Custom refined medical scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5F2EB;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D8D2C6;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B5AD9E;
+}
+
+/* Subtle editorial paper grain effect */
+.bg-subtle-noise {
+  background-image: radial-gradient(rgba(12, 43, 34, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Print styles for appointment slips */
+@media print {
+  header, footer, nav, aside, .no-print {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}

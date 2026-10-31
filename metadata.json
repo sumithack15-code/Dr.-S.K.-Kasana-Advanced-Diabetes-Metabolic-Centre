@@ -1,0 +1,6 @@
+{
+  "name": "Dr. S.K. Kasana Advanced Diabetes & Metabolic Centre @ New Life",
+  "description": "Specialized diabetes, blood sugar, HbA1c, thyroid, and metabolic health management centre in Sarita Vihar, New Delhi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

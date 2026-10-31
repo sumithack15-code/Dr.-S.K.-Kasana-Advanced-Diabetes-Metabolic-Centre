@@ -1,0 +1,114 @@
+{
+  "settings": {
+    "clinicName": "Dr. S.K. Kasana Advanced Diabetes & Metabolic Centre @ New Life",
+    "address": "J Pocket, J 350, Pocket J, Sarita Vihar, New Delhi, Delhi 110076, India",
+    "phone": "+91 9911887793",
+    "whatsappNumber": "+919911887793",
+    "rating": 4.9,
+    "reviewCount": 200,
+    "consultationDuration": 30,
+    "workingDays": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "morningStart": "09:30",
+    "morningEnd": "13:00",
+    "eveningStart": "16:30",
+    "eveningEnd": "19:30",
+    "holidays": [
+      "2026-01-26",
+      "2026-08-15",
+      "2026-10-02",
+      "2026-11-08"
+    ],
+    "blockedDates": [],
+    "blockedSlots": [],
+    "doctorName": "Dr. S.K. Kasana",
+    "doctorSpecializationPlaceholder": "Senior Diabetes & Metabolic Health Specialist",
+    "doctorQualificationPlaceholder": "Consultant Diabetologist & Metabolic Physician (Qualifications editable)",
+    "doctorRegistrationPlaceholder": "Registered Medical Practitioner (Reg. details editable upon verification)",
+    "adminPasswordHash": "Kasana@Care2026!"
+  },
+  "appointments": [
+    {
+      "id": "apt-seed-1",
+      "reference": "NL-20261030-8421",
+      "patientName": "Ramesh K. Gupta",
+      "mobile": "9811234567",
+      "email": "ramesh.gupta@example.com",
+      "age": 54,
+      "gender": "Male",
+      "consultationType": "In-Person Clinic Visit",
+      "visitType": "Follow-Up Visit",
+      "primaryConcern": "HbA1c 3-Month Progress & Medication Review",
+      "notes": "Fasting blood sugar was high last week.",
+      "date": "2026-10-30",
+      "timeSlot": "10:00 AM",
+      "status": "CONFIRMED",
+      "createdAt": "2026-10-28T10:15:00.000Z",
+      "internalNotes": "Patient history of Type 2 Diabetes for 6 years."
+    },
+    {
+      "id": "apt-seed-2",
+      "reference": "NL-20261030-9154",
+      "patientName": "Sunita Mehra",
+      "mobile": "9910987654",
+      "email": "sunita.m@example.com",
+      "age": 42,
+      "gender": "Female",
+      "consultationType": "In-Person Clinic Visit",
+      "visitType": "First-Time Visit",
+      "primaryConcern": "Metabolic Health Assessment & Weight Management",
+      "notes": "Referred by family physician for pre-diabetes evaluation.",
+      "date": "2026-10-30",
+      "timeSlot": "11:00 AM",
+      "status": "CONFIRMED",
+      "createdAt": "2026-10-28T14:30:00.000Z",
+      "internalNotes": "First consultation. Schedule fasting and post-prandial labs."
+    },
+    {
+      "id": "apt-seed-3",
+      "reference": "NL-20261030-3321",
+      "patientName": "Virender Singh",
+      "mobile": "9873456123",
+      "age": 61,
+      "gender": "Male",
+      "consultationType": "In-Person Clinic Visit",
+      "visitType": "Follow-Up Visit",
+      "primaryConcern": "Diabetic Neuropathy & Foot Check",
+      "date": "2026-10-30",
+      "timeSlot": "05:00 PM",
+      "status": "CONFIRMED",
+      "createdAt": "2026-10-29T09:00:00.000Z"
+    },
+    {
+      "id": "apt-1793343631321-7693",
+      "reference": "NL-20261030-7693",
+      "patientName": "Anita Sharma",
+      "mobile": "9811992233",
+      "gender": "Not specified",
+      "consultationType": "In-Person Clinic Visit",
+      "visitType": "First-Time Visit",
+      "primaryConcern": "HbA1c Monitoring",
+      "date": "2026-10-30",
+      "timeSlot": "10:30 AM",
+      "status": "CONFIRMED",
+      "createdAt": "2026-10-30T07:00:31.321Z"
+    }
+  ],
+  "inquiries": [
+    {
+      "id": "inq-1",
+      "name": "Pooja Verma",
+      "phone": "9810112233",
+      "email": "pooja.verma@example.com",
+      "message": "Inquiring about diet counselling for gestational diabetes.",
+      "createdAt": "2026-10-29T11:00:00.000Z",
+      "status": "NEW"
+    }
+  ]
+}
