@@ -36,15 +36,18 @@ export const DoctorProfile: React.FC<DoctorProfileProps> = ({
                 </span>
               </div>
 
-              <div className="relative mx-auto w-full max-w-sm rounded-sm overflow-hidden border border-[#2B5446] shadow-xl">
+              <div className="relative mx-auto w-full max-w-sm rounded-sm overflow-hidden border border-[#2B5446] shadow-xl bg-[#071C16]">
                 <img
                   src={IMAGES.doctorPortrait}
-                  alt="Dr. S.K. Kasana, Diabetologist in Sarita Vihar, New Delhi"
-                  className="w-full h-auto object-cover object-top filter contrast-[1.03]"
+                  alt="Dr. S.K. Kasana - Diabetologist & Metabolic Physician at New Life Centre"
+                  className="w-full h-[400px] sm:h-[440px] object-cover object-top filter contrast-[1.02]"
                   loading="lazy"
                 />
                 <div className="bg-[#071C16] p-3 text-center border-t border-[#1C483A]">
                   <div className="text-[11px] uppercase tracking-wider text-[#D0DBD0] font-medium">
+                    Dr. S.K. Kasana &middot; Senior Diabetologist
+                  </div>
+                  <div className="text-[10px] text-[#A6BAA9] font-light">
                     Consultation Chambers &middot; Pocket J, Sarita Vihar
                   </div>
                 </div>
